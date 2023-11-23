@@ -1644,7 +1644,6 @@ form{
 }
 @media (max-width: 375px){
     .about-content{
-        /* border: 1px solid black; */
         margin-inline: 15px;
         width: 35rem;
     }
