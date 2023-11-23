@@ -258,7 +258,7 @@ menu{
     align-items: center;
     /* flex-wrap: wrap; */
     /* height: 39rem; */
-    padding-block: 4rem;
+    padding-block: 6rem 4rem;
     height: auto;
     background-color: #FFFCF8;
 }
