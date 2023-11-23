@@ -258,7 +258,7 @@ menu{
     align-items: center;
     /* flex-wrap: wrap; */
     /* height: 39rem; */
-    padding-block: 2rem 4rem;
+    padding-block: 4rem;
     height: auto;
     background-color: #FFFCF8;
 }
@@ -1470,6 +1470,9 @@ form{
     footer{
         flex-direction: column;
     }
+    .copy-right h5{
+        font-size: 0.8rem;
+    }
 }
 
 @media(max-width: 444px){
@@ -1493,6 +1496,9 @@ form{
     }
     .team-header p:nth-child(3){
         font-size: 0.75rem;
+    }
+    .copy-right h5{
+        font-size: 0.7rem;
     }
 }
 
@@ -1638,8 +1644,20 @@ form{
 }
 @media (max-width: 375px){
     .about-content{
-        border: 1px solid black;
+        /* border: 1px solid black; */
+        margin-inline: 15px;
         width: 35rem;
+    }
+    .grooming-content h1{
+        font-size: 1.5rem;
+    }
+    .grooming-content button{
+        padding-inline: 5px;
+        padding-block: 10px;
+        
+    }
+    .copy-right h5{
+        font-size: 0.6rem;
     }
 }
 @media (max-width: 370px){
