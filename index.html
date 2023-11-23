@@ -28,12 +28,31 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
 <body id="home">
+    <!-- menu -->
+    <menu>
+        <i class='bx bx-x' id="close-menu"></i>
+        <div class="menu-nav-link">
+            <ul>
+                <li><a id="li5" href="#home">Home</a></li>
+                <li><a id="li" href="#about">About Us</a></li>
+                <li><a id="li1" href="#services">Services</a></li>
+                <li><a id="li2" href="#pricing">Pricing</a></li>
+                <li><a id="li3" href="#gallery">Gallery</a></li>
+                <li><a id="li4" href="#">Contact Us</a></li>
+                <li><a href="#" id="register">Register Now</a></li>
+            </ul>
+        </div>
+    </menu>
+
     <!-- hero -->
     <div class="hero">
         <!-- nav bar -->
         <div class="nav">
             <div class="nav-logo">
                 <a href="index.html"><img src="images/Logo.png" alt="pet logo"></a>
+            </div>
+            <div class="menu">
+                <i id="menu" class='bx bx-menu'></i>
             </div>
             <div class="nav-link">
                 <ul>
@@ -107,11 +126,14 @@
             <div class="services-header">
                 <h6>Our Haldaa Services</h6>
                 <p>We Are <b>Best Team for Pet</b> Care Services</p>
-                <p>Conveniently customize proactive services leveraged without continualliery aggregate fricctionle ou wellies</p>
+                <p>Conveniently customize proactive services leveraged without <br> continualliery aggregate fricctionle ou wellies</p>
             </div>
         </center>
         <div class="services-option">
-            <div class="services-option-firstBox">
+            <div class="services-option-block">
+                <div class="services-dog-one">
+                    <img src="images/spitz-sitting-front-white-wall_1.png" alt="">
+                </div>
                 <div class="box">
                     <div class="services-img">
                         <img src="images/dog 2.jpg" alt="dog2">
@@ -133,14 +155,6 @@
                     <h4>Pet Nutrition</h4>
                     <p>Don't get shirty with me owt to do with me arse down have it car boot happy days noflat the little rotter cheeky.!</p>
                 </div>
-            </div>
-            <div class="services-option-secondBox">
-                <div class="services-dog-one">
-                    <img src="images/spitz-sitting-front-white-wall_1.png" alt="">
-                </div>
-                <div class="services-dog-two">
-                    <img src="images/shetland-dog-maine-coon-cat_1.png" alt="">
-                </div>
                 <div class="box">
                     <div class="services-img">
                         <img src="images/dog-house.jpg" alt="dog2">
@@ -161,6 +175,9 @@
                     </div>
                     <h4>Pet Breeds</h4>
                     <p>Don't get shirty with me owt to do with me arse down have it car boot happy days noflat the little rotter cheeky.!</p>
+                </div>
+                <div class="services-dog-two">
+                    <img src="images/shetland-dog-maine-coon-cat_1-removebg-preview.png" alt="">
                 </div>
             </div>
         </div>
@@ -196,31 +213,29 @@
             <div class="gallery-header">
                 <h6>Haldaa Gallery</h6>
                 <p>Our Pet <b>Care Gallery</b></p>
-                <p>Conveniently customize proactive services leveraged without continualliery aggregate fricctionle ou wellies</p>
+                <p>Conveniently customize proactive services leveraged without <br> continualliery aggregate fricctionle ou wellies</p>
             </div>
         </center>
         <div class="gallery">
             <div class="gallery-one">
-                <div class="gallery-img-four">
+                <div class="gallery-img">
                     <img src="images/young-man-giving-high-five-his-dog-park 1.jpg" alt="">
                 </div>    
-                <div class="gallery-img-five">
-                    <img src="images/horizontal-picture-magnetic-charming-black-haired-woman-with-pet-her-hands.jpg" alt="">
-                </div>
-                <div class="gallery-img-six">
-                    <img src="images/woman-sharing-cookies-with-her-dog.jpg" alt="">
-                </div>        
-            </div>
-            <div class="gallery-two">
-                <div class="gallery-img-one">
-                    <img src="images/happy-woman-owner-dog-sitting-windowsill-holding-cup-coffee-looking-through-window.jpg" alt="">
-                </div>
-                <div class="gallery-img-two">
+                <div class="gallery-img">
                     <img src="images/smiley-boy-parents-petting-dog-while-park.jpg" alt="">
                 </div>
-                <div class="gallery-img-three">
-                    <img src="images/portrait-woman-with-her-beautiful-dog 1.jpg" alt="">
+                <div class="gallery-img">
+                    <img src="images/woman-sharing-cookies-with-her-dog.jpg" alt="">
+                </div> 
+                <div class="gallery-img">
+                    <img src="images/happy-woman-owner-dog-sitting-windowsill-holding-cup-coffee-looking-through-window.jpg" alt="">
                 </div>
+                <div class="gallery-img">
+                    <img src="images/horizontal-picture-magnetic-charming-black-haired-woman-with-pet-her-hands.jpg" alt="">
+                </div>
+                <div class="gallery-img">
+                    <img src="images/portrait-woman-with-her-beautiful-dog 1.jpg" alt="">
+                </div>       
             </div>
         </div>
     </div>
@@ -231,7 +246,7 @@
             <div class="pricing-header">
                 <h6>Haldaa Pricing</h6>
                 <p>Our Pet <b>Care Pricing Plan</b></p>
-                <p>Conveniently customize proactive services leveraged without continualliery aggregate fricctionle ou wellies</p>
+                <p>Conveniently customize proactive services leveraged without <br> continualliery aggregate fricctionle ou wellies</p>
             </div>
         </center>
         <div class="plans">
@@ -316,12 +331,12 @@
     </div>
 
     <!-- Testimonial -->
-    <div class="testimonial">
+    <!-- <div class="testimonial">
         <center>
             <div class="testimonial-header">
                 <h6>Testimonial</h6>
                 <p>Our Customer Said <b>About Pet Care</b></p>
-                <p>Conveniently customize proactive services leveraged without continualliery aggregate fricctionle ou wellies</p>
+                <p>Conveniently customize proactive services leveraged without <br> continualliery aggregate fricctionle ou wellies</p>
             </div>
         </center>
         <div class="testimonial-hero">
@@ -382,7 +397,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- Team members -->
     <div class="team">
@@ -390,7 +405,7 @@
             <div class="team-header">
                 <h6>Team Member</h6>
                 <p>Our Pet Care <b>Team Member</b></p>
-                <p>Conveniently customize proactive services leveraged without continualliery aggregate fricctionle ou wellies</p>
+                <p>Conveniently customize proactive services leveraged without <br> continualliery aggregate fricctionle ou wellies</p>
             </div>
         </center>
         <div class="team-container">
@@ -440,16 +455,19 @@
                 </div>
             </div>
         </div>
+        <div class="dog-plate2">
+            <img src="images/Mockup_1__1.png" alt="">
+        </div>
         <div class="question-dog">
             <img src="images/dog_4_1.png" alt="">
         </div>
     </div>
 
     <!-- footer -->
-    <footer class="row">
-        <div class="col-sm-2 footer-content-one">
+    <footer>
+        <div class="footer-content-one">
             <h3>Haldaa</h3>
-            <p>Aliquam pellentesque pellentesque neque vitae elementum.</p>
+            <p>Aliquam pellentesque pellentesque <br> neque vitae elementum.</p>
             <div class="flex">
                 <span><i class='bx bx-phone-call' ></i></span><p>+(141 - 589 - 548 - 656</p>
             </div>
@@ -457,10 +475,10 @@
                 <span><i class='bx bx-envelope' ></i></span><p>infohaldaa@gmail.com</p>
             </div>
             <div class="flex">
-                <span><i class='bx bxs-map' ></i></i></span><p>Birkbeck Court, Birkbeck Rd, London W3 6BQ, UK</p>
+                <span><i class='bx bxs-map' ></i></i></span><p>Birkbeck Court, Birkbeck Rd, <br>London W3 6BQ, UK</p>
             </div>
         </div>
-        <div class="col-sm-2 footer-content">
+        <div class="footer-content">
             <h3>Working Days</h3>
             <p><span>Saturday</span> 09AM - 8PM</p>
             <p><span>Monday</span> 10AM - 6PM</p>
@@ -468,7 +486,7 @@
             <p><span>Wednesday</span> 03PM - 8PM</p>
             <p><span>Friday</span> 09AM - 8PM</p>
         </div>
-        <div class="col-sm-2 footer-content">
+        <div class="footer-content">
             <h3>Quick Links</h3>
             <div class="footer-a">
                 <a href="#" class="top">About us</a>
@@ -478,9 +496,9 @@
                 <a href="#">Contact</a>
             </div>
         </div>
-        <div class="col-sm-2 footer-content">
+        <div class="footer-content">
             <h3>Subscribe Now</h3>
-            <p>Pellentesque aliquam sem in tellus fringilla interdum.</p>
+            <p>Pellentesque aliquam sem in tellus <br>fringilla interdum.</p>
             <div class="subs">
                 <form action="#">
                     <div class="maill"><i class='bx bx-mail-send' ></i></div>
