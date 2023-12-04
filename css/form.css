@@ -105,7 +105,8 @@
 }
 
 .hero .right .form .input-card input::placeholder {
-  font-family: cursive;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
 }
 
 .hero .right .form .register {
