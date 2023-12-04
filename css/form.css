@@ -189,4 +189,7 @@ a {
     padding-block: 0.7em;
     justify-content: space-around;
   }
+  .hero .right .form .input-card input{
+    padding: 0.3em 0.4em;
+  }
 }
