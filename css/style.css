@@ -1136,9 +1136,6 @@ form{
         margin-block: 20px;
         cursor: pointer;
     }
-    .menu-nav-link li #register{
-        padding-inline: 40px;
-    }   
     .question-dog{
         display: none;
     }
@@ -1299,14 +1296,11 @@ form{
     .menu-nav-link ul li{
         width: 100%;
         text-align: center;
-        margin-block: 15px;
+        margin-block: 20px;
     }
     .menu-nav-link ul li a{
         font-size: 1.1rem;
-    }
-    .menu-nav-link li #register{
-        padding-inline: 40px;
-    }    
+    } 
 }
 @media(max-width: 552px){
     .question-content p:nth-child(1){
