@@ -1283,7 +1283,7 @@ form{
         display: flex;
         justify-content: center;
         align-items: center;
-        opacity: 0.99;
+        opacity: 0.95;
         padding-top: 0;
     }
     #close-menu{
