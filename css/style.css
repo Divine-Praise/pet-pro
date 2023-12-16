@@ -1299,10 +1299,10 @@ form{
     .menu-nav-link ul li{
         width: 100%;
         text-align: center;
-        margin-block: 20px;
+        margin-block: 15px;
     }
     .menu-nav-link ul li a{
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
     .menu-nav-link li #register{
         padding-inline: 40px;
