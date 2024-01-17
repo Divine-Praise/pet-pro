@@ -151,6 +151,14 @@ a {
 .hero .right .form .input-card label {
   padding-bottom: 0.5em;
 }
+.error-message{
+  font-size: 0.9rem;
+  letter-spacing: 0.3px;
+  color: red;
+  font-style: normal;
+  margin-top: 1px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
 @media screen and (max-width: 917px) {
   .hero {

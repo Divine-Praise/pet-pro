@@ -24,18 +24,20 @@
         <h2>PetPalsy</h2>
       </div>
       <div class="right">
-        <form id="form" class="form">
+        <form id="form" class="form" onsubmit="return checklogin(event)">
           <div class="title">
             <h2>Sign in</h2>
             <p>Welcome Back!!! <br>Login to access your dashboard</p>
           </div>
           <div class="input-card">
             <label>Email address</label>
-            <input type="email" placeholder="Email/Phone Number" />
+            <input type="email" placeholder="Email/Phone Number" id="login-email" onkeyup="clearLoginEmailErrorMessage()"/>
+            <div id="login-email-error-message" class="error-message"></div>
           </div>
           <div class="input-card">
             <label>Password</label>
-            <input type="password" placeholder="Password" />
+            <input type="password" placeholder="Password" id="login-pwd" onkeyup="clearLoginPwdErrorMessage()"/>
+            <div id="login-pwd-error-message" class="error-message"></div>
           </div>
           <div class="register">
             <p>Don't have an account? <a href="Signup.html">Register</a></p>
@@ -47,6 +49,6 @@
         </form>
       </div>
     </div>
-    <script src="js/main.js"></script>
+    <script src="Js/formValidation.js"></script>
   </body>
 </html>
