@@ -112,7 +112,7 @@ body{
   width: 90%;
   padding: 0.3em;
   text-align: left;
-  font-family: cursive;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .hero .right .form .input-card input {
@@ -121,7 +121,7 @@ body{
   border-radius: 2px;
   border: 1px solid grey;
   padding: 0.1em 0.4em;
-  font-family: cursive;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .hero .right .form .input-card input:focus{
   outline-color: var(--primary-bg);
