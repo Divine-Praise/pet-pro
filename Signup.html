@@ -24,40 +24,41 @@
         <h2>PetPalsy</h2>
       </div>
       <div class="right">
-        <form id="form" class="form" onsubmit="return checkme(event)">
+        <div class="suc"><p>Signed up successfully!!</p></div>
+        <form id="form" class="form" action="PHP/connectdb.php" onsubmit="return checkme(event)">
           <div class="title">
             <h2>Register</h2>
             <p>Sign Up to access your dashboard</p>
           </div>
           <div class="input-card">
             <label>Full Name</label>
-            <input type="text" placeholder="Full Name" id="fullname" onkeyup="clearFullErrorMessage()"/>
+            <input type="text" placeholder="Full Name" id="fullname" name="fullname" onkeyup="clearFullErrorMessage()"/>
             <div id="full-error-message" class="error-message"></div>
           </div>
           <div class="input-card">
             <label>User Name</label>
-            <input type="text" placeholder="User Name" id="username" onkeyup="clearUserErrorMessage()"/>
-            <div id="user-error-message" class="error-message"></div>
+            <input type="text" placeholder="User Name" id="username" onkeyup="clearUserErrorMessage()" name="username"/>
+            <div id="user-error-message" class="error-message" nam></div>
           </div>
           <div class="input-card">
             <label>Email address</label>
-            <input type="email" placeholder="Email" id="email" onkeyup="clearEmailErrorMessage()"/>
+            <input type="email" placeholder="Email" id="email" onkeyup="clearEmailErrorMessage()" name="email"/>
             <div id="email-error-message" class="error-message"></div>
           </div>
           <div class="input-card">
             <label>Phone</label>
-            <input type="text" placeholder="Phone Number" id="phone" onkeyup="clearPhoneErrorMessage()"/>
+            <input type="text" placeholder="Phone Number" id="phone" onkeyup="clearPhoneErrorMessage()" name="phone"/>
             <div id="phone-error-message" class="error-message"></div>
           </div>
           <div class="input-card">
             <label>Password</label>
-            <input type="password" placeholder="Password" id="pwd" onkeyup="clearPwdErrorMessage()"/>
+            <input type="password" placeholder="Password" id="pwd" onkeyup="clearPwdErrorMessage()" name="pwd"/>
             <div id="pwd-error-message" class="error-message"></div>
           </div>
           <div class="register">
             <p>Already have an account? <a href="login.html">Sign In</a></p>
           </div>
-          <button type="submit">Register</button>
+          <button type="submit" id="submit">Register</button>
           <div class="forgot-password">
             <p>Forgot Password? <a href="#">Click here</a></p>
           </div>
