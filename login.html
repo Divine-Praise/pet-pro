@@ -17,6 +17,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
 
+     <!-- link boxicon---------------------- -->
+     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
   </head>
   <body>
     <div class="hero">
@@ -24,7 +27,14 @@
         <h2>PetPalsy</h2>
       </div>
       <div class="right">
-        <div class="loginsuc"><p id="pmsg">Login successfully!!</p></div>
+        <div class="loginsuc">
+          <div class="poll"></div>
+          <div class="message">
+            <h3 id="h3msg">Success</h3>
+            <p id="pmsg">Account Created Successfully</p>
+          </div>
+          <div class="close-message" id="closeloginmsg"><i class='bx bx-x'></i></div>
+        </div>
         <form id="form" class="form" onsubmit="return checklogin(event)">
           <div class="title">
             <h2>Sign in</h2>

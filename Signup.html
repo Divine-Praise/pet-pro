@@ -17,6 +17,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
 
+    <!-- link boxicon---------------------- -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
   </head>
   <body>
     <div class="hero">
@@ -24,7 +28,14 @@
         <h2>PetPalsy</h2>
       </div>
       <div class="right">
-        <div class="suc"><p>Signed up successfully!!</p></div>
+        <div class="suc">
+          <div class="poll"></div>
+          <div class="message">
+            <h3>Success</h3>
+            <p>Account Created Successfully</p>
+          </div>
+          <div class="close-message"><i class='bx bx-x'></i></div>
+        </div>
         <form id="form" class="form" action="PHP/connectdb.php" onsubmit="return checkme(event)">
           <div class="title">
             <h2>Register</h2>
@@ -47,7 +58,7 @@
           </div>
           <div class="input-card">
             <label>Phone</label>
-            <input type="text" placeholder="Phone Number" id="phone" onkeyup="clearPhoneErrorMessage()" name="phone"/>
+            <input type="number" placeholder="Phone Number" id="phone" onkeyup="clearPhoneErrorMessage()" name="phone"/>
             <div id="phone-error-message" class="error-message"></div>
           </div>
           <div class="input-card">

@@ -48,14 +48,67 @@ body{
   position: fixed;
   top: 0;
   right: -100%;
-  padding-block: 1.2rem;
-  padding-inline: 3rem;
-  border-bottom-left-radius: 15px;
-  background-color: palegreen;
+  padding-block: 0.8rem;
+  padding-inline: 0.5rem 1rem;
+  /* border-bottom-left-radius: 5px; */
+  border-radius: 10px;
+  background-color: #fff;
   color: white;
-  font-weight: bold;
+  font-weight: 550;
   transition: .3s;
+  z-index: 200;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  box-shadow: 4px 4px 20px 0px grey;
 }
+
+.suc .poll,
+.loginsuc .poll{
+  width: 5px;
+  height: 55px;
+  border-radius: 10px;
+  background-color: rgb(112, 238, 112);
+}
+
+.suc .message,
+.loginsuc .message{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 3px;
+  margin-bottom: 7px;
+}
+
+.suc .message h3,
+.loginsuc .message h3{
+  color: rgb(112, 238, 112);
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.suc p,
+.loginsuc p{
+  font-size: 0.8rem;
+  color: rgb(99, 99, 99);
+}
+
+.suc .close-message,
+.loginsuc .close-message{
+  /* border: 1px solid black; */
+  margin-bottom: 25px;
+  margin-left: 10px;
+}
+
+.suc .close-message i,
+.loginsuc .close-message i{
+  color: rgb(99, 99, 99);
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
 .suc.active,
 .loginsuc.active{
   right: 0;
@@ -112,7 +165,6 @@ body{
   width: 90%;
   padding: 0.3em;
   text-align: left;
-  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .hero .right .form .input-card input {
@@ -121,7 +173,6 @@ body{
   border-radius: 2px;
   border: 1px solid grey;
   padding: 0.1em 0.4em;
-  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .hero .right .form .input-card input:focus{
   outline-color: var(--primary-bg);
