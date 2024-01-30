@@ -279,7 +279,7 @@ function checklogin(event){
         setTimeout(()=>{
 
             //Submit values and color back to default
-            submit.innerHTML = "Register";
+            submit.innerHTML = "Login";
             submit.style.backgroundColor = "transparent";
             submit.style.color = "#FA481A";
 
