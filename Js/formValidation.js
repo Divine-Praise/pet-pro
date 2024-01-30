@@ -223,6 +223,7 @@ function checklogin(event){
                     //Change pop up message colors and values.
                     poll.style.backgroundColor = "rgb(112, 238, 112)";
                     h3Msg.style.color = "rgb(112, 238, 112)";
+                    h3Msg.innerHTML = "Success";
                     pmsg.innerHTML = "Login is successful";
 
                     //Display pop up message
